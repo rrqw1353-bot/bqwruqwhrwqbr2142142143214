@@ -26,7 +26,7 @@ logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 
 # Sabit input (username----token)
-FIXED_INPUT = "kirya593----eyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInN0ZWFtIiwgInN1YiI6ICI3NjU2MTE5ODA3NzQwMTc1OCIsICJhdWQiOiBbICJjbGllbnQiLCAid2ViIiwgInJlbmV3IiwgImRlcml2ZSIgXSwgImV4cCI6IDE3NjY2MDI5NDQsICJuYmYiOiAxNzI2NzUwMzg5LCAiaWF0IjogMTczNTM5MDM4OSwgImp0aSI6ICIwMDBFXzI1OEUxMzFBX0M2MDdEIiwgIm9hdCI6IDE3MzUzOTAzODksICJnZW4iOiAxLCAicGVyIjogMSwgImlwX3N1YmplY3QiOiAiOTUuMTkwLjE1Ni4xMDciLCAiaXBfY29uZmlybWVyIjogIjk1LjE5MC4xNTYuMTA3IiB9.MHt21UP_fW64UjCacW-oUjoQcYv6soW9PoXR8-RjGiMwRarv0es2ZdovBQWMd5E09mgi6qzxe8c_ZMIdsuVgDA"
+FIXED_INPUT = "2293394904----eyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInN0ZWFtIiwgInN1YiI6ICI3NjU2MTE5ODgxMTgyMTU3NiIsICJhdWQiOiBbICJjbGllbnQiLCAid2ViIiwgInJlbmV3IiwgImRlcml2ZSIgXSwgImV4cCI6IDE3NjI1MzcyNzgsICJuYmYiOiAxNzUxMjUxNjIwLCAiaWF0IjogMTc1OTg5MTYyMCwgImp0aSI6ICIwMDE2XzI3MEYzODMxX0ZFRTM4IiwgIm9hdCI6IDE3NTk4OTE2MjAsICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICI1OC4xOC45Ni40NCIsICJpcF9jb25maXJtZXIiOiAiMTIyLjEwLjEyNy42MiIgfQ.PsA6GLQP5vfFm7rOXr7CX2AZ0xzFMM6fArj5CDTGXY6bFYoHxPZFF1Hel9g0lmuAB-ZXnDH65PNZj1NuhAQuCw"
 
 def random_string(length=8):
     return ''.join(random.choice(string.ascii_letters) for _ in range(length))
@@ -429,5 +429,6 @@ if __name__ == "__main__":
         QMessageBox.warning(None, "Error", f"Login failed: {str(e)}")
 
         sys.exit(1)
+
 
 
